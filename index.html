@@ -355,12 +355,12 @@ const chapters = {
 
 const chapterDecks = {
  "Seconde Chapitre 1 : Bases":[
-   { front:"f(x)=x^2", back:"\\text{dérivée } 2x", frontImg:"", backImg:"" },
-   { front:"(a+b)^2", back:"a^2 + 2ab + b^2", frontImg:"", backImg:"" },
-   { front:"\\sin^2\\theta + \\cos^2\\theta", back:"1", frontImg:"", backImg:"" }
+   {"front":"$(a+b)^2$","back":"$a^2+2ab+b^2$","frontImg":"","backImg":""},
+   {{"front":"$(a-b)^2$","back":"$a^2-2ab+b^2$","frontImg":"","backImg":""},
+   {"front":"$(a+b)(a-b)$","back":"$a^2-b^2$","frontImg":"","backImg":""}
  ]
 };
-
+    
 let currentLevel = null;
 let selectedChapter = null;
 let deck = [];
@@ -628,4 +628,5 @@ document.getElementById('reviseBtn').addEventListener('click', ()=>{
 </script>
 </body>
 </html>
+
 
